@@ -1,9 +1,11 @@
 package com.feddebh.fitbot.models.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
 @Table(name = "usuario")
+@Data
 
 public class Usuario {
 
